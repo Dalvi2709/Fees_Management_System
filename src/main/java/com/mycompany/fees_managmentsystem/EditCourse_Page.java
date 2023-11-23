@@ -300,7 +300,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(173, 239, 209));
 
         Edit_course_Table.setBackground(new java.awt.Color(255, 204, 204));
-        Edit_course_Table.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        Edit_course_Table.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Edit_course_Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -317,7 +317,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         jScrollPane1.setViewportView(Edit_course_Table);
 
         txt_course_id.setBackground(new java.awt.Color(255, 255, 204));
-        txt_course_id.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txt_course_id.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         txt_course_id.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         txt_course_id.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -326,7 +326,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         });
 
         txt_course_name.setBackground(new java.awt.Color(255, 255, 204));
-        txt_course_name.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txt_course_name.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         txt_course_name.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         txt_course_name.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -335,7 +335,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         });
 
         txt_course_price.setBackground(new java.awt.Color(255, 255, 204));
-        txt_course_price.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txt_course_price.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         txt_course_price.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         txt_course_price.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -353,7 +353,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         lbl_course_name.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbl_course_name.setText("Course Name");
 
-        btn_add.setBackground(new java.awt.Color(153, 153, 153));
+        btn_add.setBackground(new java.awt.Color(102, 102, 102));
         btn_add.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btn_add.setForeground(new java.awt.Color(255, 255, 255));
         btn_add.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\add2.png")); // NOI18N
@@ -364,7 +364,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
             }
         });
 
-        btn_update.setBackground(new java.awt.Color(153, 153, 153));
+        btn_update.setBackground(new java.awt.Color(102, 102, 102));
         btn_update.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btn_update.setForeground(new java.awt.Color(255, 255, 255));
         btn_update.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\update.png")); // NOI18N
@@ -375,7 +375,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
             }
         });
 
-        btn_delete.setBackground(new java.awt.Color(153, 153, 153));
+        btn_delete.setBackground(new java.awt.Color(102, 102, 102));
         btn_delete.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btn_delete.setForeground(new java.awt.Color(255, 255, 255));
         btn_delete.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\delete.png")); // NOI18N
@@ -404,14 +404,13 @@ public class EditCourse_Page extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(352, 352, 352))
+                .addGap(353, 353, 353))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(8, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -454,12 +453,12 @@ public class EditCourse_Page extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addGap(18, 21, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(93, 93, 93)
+                        .addGap(77, 77, 77)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txt_course_id, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lbl_course_id, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -471,7 +470,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txt_course_price, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lbl_course_price, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(48, 48, 48)
+                        .addGap(63, 63, 63)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btn_add)
                             .addComponent(btn_update)

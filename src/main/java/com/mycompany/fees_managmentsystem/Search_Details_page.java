@@ -73,19 +73,21 @@ public class Search_Details_page extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         table_stu_data = new javax.swing.JTable();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txt_search_data = new javax.swing.JTextField();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.setBackground(new java.awt.Color(14, 58, 83));
+        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 0, 0), 2, true));
 
-        btn_home.setBackground(new java.awt.Color(102, 102, 102));
+        btn_home.setBackground(new java.awt.Color(255, 204, 153));
         btn_home.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_home.setForeground(new java.awt.Color(255, 255, 255));
         btn_home.setText("Home");
         btn_home.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -98,9 +100,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_search_record.setBackground(new java.awt.Color(102, 102, 102));
+        btn_search_record.setBackground(new java.awt.Color(255, 204, 153));
         btn_search_record.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_search_record.setForeground(new java.awt.Color(255, 255, 255));
         btn_search_record.setText("Search Record");
         btn_search_record.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,9 +109,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_edit_course.setBackground(new java.awt.Color(102, 102, 102));
+        btn_edit_course.setBackground(new java.awt.Color(255, 204, 153));
         btn_edit_course.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_edit_course.setForeground(new java.awt.Color(255, 255, 255));
         btn_edit_course.setText("Edit Course");
         btn_edit_course.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -123,9 +123,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_course_list.setBackground(new java.awt.Color(102, 102, 102));
+        btn_course_list.setBackground(new java.awt.Color(255, 204, 153));
         btn_course_list.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_course_list.setForeground(new java.awt.Color(255, 255, 255));
         btn_course_list.setText("Course List");
         btn_course_list.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -133,9 +132,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_view_records.setBackground(new java.awt.Color(102, 102, 102));
+        btn_view_records.setBackground(new java.awt.Color(255, 204, 153));
         btn_view_records.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_view_records.setForeground(new java.awt.Color(255, 255, 255));
         btn_view_records.setText("View Records");
         btn_view_records.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,9 +141,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_back.setBackground(new java.awt.Color(102, 102, 102));
+        btn_back.setBackground(new java.awt.Color(255, 204, 153));
         btn_back.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_back.setForeground(new java.awt.Color(255, 255, 255));
         btn_back.setText("Back");
         btn_back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -158,9 +155,8 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_logout.setBackground(new java.awt.Color(102, 102, 102));
+        btn_logout.setBackground(new java.awt.Color(255, 204, 153));
         btn_logout.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_logout.setForeground(new java.awt.Color(255, 255, 255));
         btn_logout.setText("Logout");
         btn_logout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -178,7 +174,7 @@ public class Search_Details_page extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(21, Short.MAX_VALUE)
+                .addContainerGap(19, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btn_view_records, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btn_back, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -207,17 +203,19 @@ public class Search_Details_page extends javax.swing.JFrame {
                 .addComponent(btn_back, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addComponent(btn_logout, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(204, Short.MAX_VALUE))
+                .addContainerGap(202, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 680));
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(173, 239, 209));
+        jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        table_stu_data.setBackground(new java.awt.Color(255, 255, 204));
-        table_stu_data.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        table_stu_data.setBackground(new java.awt.Color(255, 204, 204));
+        table_stu_data.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        table_stu_data.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         table_stu_data.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -228,19 +226,16 @@ public class Search_Details_page extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(table_stu_data);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 830, 410));
-
-        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 30)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Search Record");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, -1));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 830, 410));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(0, 51, 51));
         jLabel2.setText("Enter the String ");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, -1, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
 
+        txt_search_data.setBackground(new java.awt.Color(255, 255, 204));
         txt_search_data.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txt_search_data.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         txt_search_data.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_search_dataActionPerformed(evt);
@@ -251,7 +246,37 @@ public class Search_Details_page extends javax.swing.JFrame {
                 txt_search_dataKeyReleased(evt);
             }
         });
-        jPanel2.add(txt_search_data, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 110, 370, 30));
+        jPanel2.add(txt_search_data, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 370, 40));
+
+        jPanel3.setBackground(new java.awt.Color(51, 0, 51));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 30)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\NetBeansProjects\\fees_managmentSystem\\src\\main\\java\\search2.png")); // NOI18N
+        jLabel1.setText("Search Record");
+        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(288, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(310, 310, 310))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 890, 80));
+
+        jSeparator1.setForeground(new java.awt.Color(0, 51, 51));
+        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 920, 30));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 920, 680));
 
@@ -344,7 +369,9 @@ public class Search_Details_page extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTable table_stu_data;
     private javax.swing.JTextField txt_search_data;
     // End of variables declaration//GEN-END:variables
