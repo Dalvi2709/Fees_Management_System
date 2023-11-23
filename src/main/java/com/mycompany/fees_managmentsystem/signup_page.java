@@ -11,10 +11,9 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 
 public class signup_page extends javax.swing.JFrame {
- String fname,lname,uname,pass,cpass,con_no;
- Date dob;
+ 
  int id =0;
- int getId(){
+public int getId(){
      ResultSet rs = null;
      try
     {
@@ -77,7 +76,8 @@ public class signup_page extends javax.swing.JFrame {
     }
     
 }
-
+String fname,lname,uname,pass,cpass,con_no;
+        Date dob;
     public signup_page() {
         initComponents();
         
@@ -87,6 +87,7 @@ public class signup_page extends javax.swing.JFrame {
     
     boolean validation()
     {
+        
         fname = txt_firstname.getText();
         lname = txt_lastname.getText();
         uname = txt_username.getText();
@@ -124,9 +125,6 @@ public class signup_page extends javax.swing.JFrame {
             return false;
         }
         
-        if(pass.length()<8) {
-            lbl_password_error.setText("password should be 8 digit");
-        }
         if(!pass.equals(cpass)){
              JOptionPane.showMessageDialog(this , "password not match","Warning",JOptionPane.WARNING_MESSAGE);
              return false;
