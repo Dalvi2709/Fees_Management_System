@@ -217,7 +217,7 @@ public class login_page extends javax.swing.JFrame {
        }
     }catch(Exception e)
     {
-         JOptionPane.showMessageDialog(this , "Incorrect Username Or Password");
+         JOptionPane.showMessageDialog(this , "Incorrect Username Or Password","Warning",JOptionPane.WARNING_MESSAGE);
     }
          
     }
