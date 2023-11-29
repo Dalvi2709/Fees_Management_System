@@ -69,12 +69,11 @@ public class View_All_Records_page extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(14, 58, 83));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        btn_home.setBackground(new java.awt.Color(102, 102, 102));
+        btn_home.setBackground(new java.awt.Color(255, 204, 153));
         btn_home.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_home.setForeground(new java.awt.Color(255, 255, 255));
         btn_home.setText("Home");
         btn_home.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -87,9 +86,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_search_record.setBackground(new java.awt.Color(102, 102, 102));
+        btn_search_record.setBackground(new java.awt.Color(255, 204, 153));
         btn_search_record.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_search_record.setForeground(new java.awt.Color(255, 255, 255));
         btn_search_record.setText("Search Record");
         btn_search_record.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -102,9 +100,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_edit_course.setBackground(new java.awt.Color(102, 102, 102));
+        btn_edit_course.setBackground(new java.awt.Color(255, 204, 153));
         btn_edit_course.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_edit_course.setForeground(new java.awt.Color(255, 255, 255));
         btn_edit_course.setText("Edit Course");
         btn_edit_course.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -117,9 +114,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_course_list.setBackground(new java.awt.Color(102, 102, 102));
+        btn_course_list.setBackground(new java.awt.Color(255, 204, 153));
         btn_course_list.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_course_list.setForeground(new java.awt.Color(255, 255, 255));
         btn_course_list.setText("Course List");
         btn_course_list.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,9 +123,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_view_records.setBackground(new java.awt.Color(102, 102, 102));
+        btn_view_records.setBackground(new java.awt.Color(255, 204, 153));
         btn_view_records.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_view_records.setForeground(new java.awt.Color(255, 255, 255));
         btn_view_records.setText("View Records");
         btn_view_records.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,9 +132,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_back.setBackground(new java.awt.Color(102, 102, 102));
+        btn_back.setBackground(new java.awt.Color(255, 204, 153));
         btn_back.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_back.setForeground(new java.awt.Color(255, 255, 255));
         btn_back.setText("Back");
         btn_back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -152,9 +146,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
             }
         });
 
-        btn_logout.setBackground(new java.awt.Color(102, 102, 102));
+        btn_logout.setBackground(new java.awt.Color(255, 204, 153));
         btn_logout.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        btn_logout.setForeground(new java.awt.Color(255, 255, 255));
         btn_logout.setText("Logout");
         btn_logout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -206,10 +199,10 @@ public class View_All_Records_page extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 660));
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(173, 239, 209));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        table_view_data.setBackground(new java.awt.Color(255, 255, 204));
+        table_view_data.setBackground(new java.awt.Color(255, 204, 204));
         table_view_data.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -223,8 +216,8 @@ public class View_All_Records_page extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 860, -1));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("View All Record");
+        jLabel1.setText("    View All Record");
+        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 370, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 900, 660));

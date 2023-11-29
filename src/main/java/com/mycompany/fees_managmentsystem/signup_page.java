@@ -213,7 +213,7 @@ String fname,lname,uname,pass,cpass,con_no;
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Segoe UI Semibold", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText(" Sign in");
+        jLabel1.setText(" Sign up");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -221,8 +221,8 @@ String fname,lname,uname,pass,cpass,con_no;
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(157, 157, 157)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(155, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(144, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -414,7 +414,7 @@ String fname,lname,uname,pass,cpass,con_no;
                     .addGroup(passwordLayout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(btn_signup, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(545, 545, 545))
+                .addGap(586, 586, 586))
         );
         passwordLayout.setVerticalGroup(
             passwordLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
