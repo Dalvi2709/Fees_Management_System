@@ -446,7 +446,7 @@ public class Add_fees_page extends javax.swing.JFrame {
 
         lbl_date.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbl_date.setText("Date ");
-        jPanel2.add(lbl_date, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 50, 30));
+        jPanel2.add(lbl_date, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 50, 30));
 
         datechooser.setBackground(new java.awt.Color(255, 255, 204));
         datechooser.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
@@ -475,7 +475,7 @@ public class Add_fees_page extends javax.swing.JFrame {
         jPanel2.add(Combo_coursemain, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 180, 240, 30));
 
         lbl_reciver_name.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        lbl_reciver_name.setText("Receiver Name");
+        lbl_reciver_name.setText("Student Name");
         jPanel2.add(lbl_reciver_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         txt_reciver_name.setBackground(new java.awt.Color(255, 255, 204));
@@ -616,7 +616,7 @@ public class Add_fees_page extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel15.setText("Accountant Signature");
-        jPanel3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 430, 200, -1));
+        jPanel3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 420, 200, -1));
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
         jLabel16.setText("Total in words");

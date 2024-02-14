@@ -331,32 +331,30 @@ public class Genrate_report_page extends javax.swing.JFrame {
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, -1, 40));
 
         ComboBox_course.setBackground(new java.awt.Color(255, 255, 204));
-        ComboBox_course.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        ComboBox_course.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
         ComboBox_course.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         ComboBox_course.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComboBox_courseActionPerformed(evt);
             }
         });
-        jPanel2.add(ComboBox_course, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 370, 40));
+        jPanel2.add(ComboBox_course, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 390, 30));
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Select Date");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, -1, -1));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("From ");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, -1, -1));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, -1, -1));
 
         DateChooser_to.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
-        jPanel2.add(DateChooser_to, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 110, 130, 30));
+        jPanel2.add(DateChooser_to, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 110, 130, 30));
 
         DateChooser_from.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
-        jPanel2.add(DateChooser_from, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, 130, 30));
+        jPanel2.add(DateChooser_from, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 130, 30));
 
         btn_excel.setBackground(new java.awt.Color(102, 102, 102));
         btn_excel.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -367,7 +365,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
                 btn_excelActionPerformed(evt);
             }
         });
-        jPanel2.add(btn_excel, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, 120, 35));
+        jPanel2.add(btn_excel, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 260, 120, 35));
 
         btn_submit.setBackground(new java.awt.Color(102, 102, 102));
         btn_submit.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -384,7 +382,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
                 btn_submitActionPerformed(evt);
             }
         });
-        jPanel2.add(btn_submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 170, 35));
+        jPanel2.add(btn_submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 170, 35));
 
         txt_file_path.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         txt_file_path.addActionListener(new java.awt.event.ActionListener() {
@@ -392,7 +390,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
                 txt_file_pathActionPerformed(evt);
             }
         });
-        jPanel2.add(txt_file_path, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 330, 30));
+        jPanel2.add(txt_file_path, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 210, 330, 30));
 
         btn_print1.setBackground(new java.awt.Color(102, 102, 102));
         btn_print1.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -403,7 +401,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
                 btn_print1ActionPerformed(evt);
             }
         });
-        jPanel2.add(btn_print1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 120, 35));
+        jPanel2.add(btn_print1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 260, 120, 35));
 
         btn_brows.setBackground(new java.awt.Color(102, 102, 102));
         btn_brows.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -414,7 +412,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
                 btn_browsActionPerformed(evt);
             }
         });
-        jPanel2.add(btn_brows, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 180, 120, 35));
+        jPanel2.add(btn_brows, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 120, 35));
 
         table_report_data.setBackground(new java.awt.Color(220, 220, 244));
         table_report_data.setModel(new javax.swing.table.DefaultTableModel(
@@ -427,7 +425,7 @@ public class Genrate_report_page extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(table_report_data);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 880, 350));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 880, 350));
 
         jPanel3.setBackground(new java.awt.Color(255, 204, 204));
         jPanel3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
@@ -449,21 +447,19 @@ public class Genrate_report_page extends javax.swing.JFrame {
 
         lbl_course_selected.setBackground(new java.awt.Color(255, 255, 255));
         lbl_course_selected.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jPanel3.add(lbl_course_selected, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 170, 40));
+        jPanel3.add(lbl_course_selected, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 260, 40));
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, 400, 160));
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 60, 420, 160));
 
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setBackground(new java.awt.Color(0, 0, 0));
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("to ");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, -1, -1));
 
         jLabel7.setBackground(new java.awt.Color(255, 255, 255));
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Select Course");
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 980, 690));
 

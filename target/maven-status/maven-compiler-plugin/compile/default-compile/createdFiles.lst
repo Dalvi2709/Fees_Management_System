@@ -107,6 +107,7 @@ com\mycompany\fees_managmentsystem\Add_fees_page$1.class
 com\mycompany\fees_managmentsystem\Add_fees_page$14.class
 com\mycompany\fees_managmentsystem\EditCourse_Page$11.class
 com\mycompany\fees_managmentsystem\Add_fees_page$27.class
+com\mycompany\fees_managmentsystem\Update_Fees_details$29.class
 com\mycompany\fees_managmentsystem\signup_page$12.class
 com\mycompany\fees_managmentsystem\signup_page$6.class
 com\mycompany\fees_managmentsystem\home_page$20.class
@@ -172,6 +173,7 @@ com\mycompany\fees_managmentsystem\Update_Fees_details$25.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$8.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$28.class
 com\mycompany\fees_managmentsystem\EditCourse_Page$12.class
+com\mycompany\fees_managmentsystem\Update_Fees_details$30.class
 com\mycompany\fees_managmentsystem\Genrate_report_page.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$27.class
 com\mycompany\fees_managmentsystem\signup_page$2.class
