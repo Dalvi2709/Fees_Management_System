@@ -1,0 +1,240 @@
+
+
+Version:	3.50
+CmdLine:	D:\NetBeansProjects\fees_managmentSystem\app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\NetBeansProjects\fees_managmentSystem\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.000.004
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jre1.8.0_341\bin
+Substitute:	PATH = C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (not found)
+Check launcher:	C:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Server 8.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_351\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\19.0.1
+Version string: 1.019.000_001 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-19\bin\javac.exe (OK)
+Match:		1.019.000_001
+Runtime used:	1.019.000_001 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "D:\NetBeansProjects\fees_managmentSystem\app.exe"
+Args length:	55/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	D:\NetBeansProjects\fees_managmentSystem\app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\NetBeansProjects\fees_managmentSystem\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.000.004
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jre1.8.0_341\bin
+Substitute:	PATH = C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (not found)
+Check launcher:	C:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Server 8.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_351\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\19.0.1
+Version string: 1.019.000_001 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-19\bin\javac.exe (OK)
+Match:		1.019.000_001
+Runtime used:	1.019.000_001 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "D:\NetBeansProjects\fees_managmentSystem\app.exe"
+Args length:	55/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	D:\NetBeansProjects\fees_managmentSystem\app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\NetBeansProjects\fees_managmentSystem\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.000.004
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jre1.8.0_341\bin
+Substitute:	PATH = C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (not found)
+Check launcher:	C:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Server 8.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_351\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\19.0.1
+Version string: 1.019.000_001 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-19\bin\javac.exe (OK)
+Match:		1.019.000_001
+Runtime used:	1.019.000_001 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "D:\NetBeansProjects\fees_managmentSystem\app.exe"
+Args length:	55/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	D:\NetBeansProjects\fees_managmentSystem\app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\NetBeansProjects\fees_managmentSystem\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.000.004
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jre1.8.0_341\bin
+Substitute:	PATH = C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (not found)
+Check launcher:	C:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Server 8.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_351\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\19.0.1
+Version string: 1.019.000_001 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-19\bin\javac.exe (OK)
+Match:		1.019.000_001
+Runtime used:	1.019.000_001 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "D:\NetBeansProjects\fees_managmentSystem\app.exe"
+Args length:	55/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	D:\NetBeansProjects\fees_managmentSystem\target\app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\NetBeansProjects\fees_managmentSystem\target\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.000.004
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jre1.8.0_341\bin
+Substitute:	PATH = C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Git\cmd;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Java\jre1.8.0_341\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (not found)
+Check launcher:	C:\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\MinGW\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Server 8.0\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Lenovo\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_351\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\19.0.1
+Version string: 1.019.000_001 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jdk-19\bin\javac.exe (OK)
+Match:		1.019.000_001
+Runtime used:	1.019.000_001 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "D:\NetBeansProjects\fees_managmentSystem\target\app.exe"
+Args length:	62/32768 chars
+Exit code:	1
