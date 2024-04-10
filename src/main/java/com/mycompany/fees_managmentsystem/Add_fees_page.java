@@ -249,7 +249,6 @@ public class Add_fees_page extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         lbl_roll_no = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jLabel13 = new javax.swing.JLabel();
         txt_total = new javax.swing.JTextField();
@@ -257,7 +256,6 @@ public class Add_fees_page extends javax.swing.JFrame {
         jSeparator3 = new javax.swing.JSeparator();
         jSeparator4 = new javax.swing.JSeparator();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         txt_course_head = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -398,10 +396,10 @@ public class Add_fees_page extends javax.swing.JFrame {
                 .addComponent(btn_back, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addComponent(btn_logout, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(242, Short.MAX_VALUE))
+                .addContainerGap(202, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 260, 720));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 680));
 
         jPanel2.setBackground(new java.awt.Color(255, 204, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
@@ -558,7 +556,7 @@ public class Add_fees_page extends javax.swing.JFrame {
         });
         jPanel2.add(txt_dd_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 130, 30));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 880, 280));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 880, 280));
 
         jPanel3.setBackground(new java.awt.Color(173, 239, 209));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -570,11 +568,6 @@ public class Add_fees_page extends javax.swing.JFrame {
         lbl_roll_no.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbl_roll_no.setText("to ");
         jPanel3.add(lbl_roll_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, -1, -1));
-
-        jSeparator1.setBackground(new java.awt.Color(255, 0, 0));
-        jSeparator1.setForeground(new java.awt.Color(255, 102, 102));
-        jSeparator1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jPanel3.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 420, 240, 10));
 
         jSeparator2.setBackground(new java.awt.Color(255, 0, 0));
         jSeparator2.setForeground(new java.awt.Color(255, 102, 102));
@@ -613,10 +606,6 @@ public class Add_fees_page extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel14.setText("Total");
         jPanel3.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 270, 80, -1));
-
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel15.setText("Accountant Signature");
-        jPanel3.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 420, 200, -1));
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
         jLabel16.setText("Total in words");
@@ -690,9 +679,9 @@ public class Add_fees_page extends javax.swing.JFrame {
         });
         jPanel3.add(txt_amount, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 130, 240, 40));
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 200, 880, 520));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 210, 870, 470));
 
-        setSize(new java.awt.Dimension(1168, 723));
+        setSize(new java.awt.Dimension(1146, 691));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -912,7 +901,6 @@ public class Add_fees_page extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel20;
@@ -920,7 +908,6 @@ public class Add_fees_page extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
