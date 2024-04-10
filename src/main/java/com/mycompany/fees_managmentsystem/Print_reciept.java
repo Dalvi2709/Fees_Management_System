@@ -329,7 +329,7 @@ public class Print_reciept extends javax.swing.JFrame {
 
         lbl_payment_mode.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_payment_mode.setText("Payment Mode :");
-        Panel_print_reciept.add(lbl_payment_mode, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 490, 120, 30));
+        Panel_print_reciept.add(lbl_payment_mode, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 500, 120, 20));
 
         txt_payment_mode.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_payment_mode.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -342,7 +342,7 @@ public class Print_reciept extends javax.swing.JFrame {
 
         lbl_dd_no.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_dd_no.setText("dd no :");
-        Panel_print_reciept.add(lbl_dd_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 570, 50, 20));
+        Panel_print_reciept.add(lbl_dd_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 50, 20));
 
         txt_dd_no.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_dd_no.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -351,11 +351,11 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_dd_noActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_dd_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 70, -1));
+        Panel_print_reciept.add(txt_dd_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 570, 150, -1));
 
         lbl_bank_name.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_bank_name.setText("Bank name :");
-        Panel_print_reciept.add(lbl_bank_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 530, 90, 20));
+        Panel_print_reciept.add(lbl_bank_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 530, 100, 20));
 
         txt_initial_amount.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_initial_amount.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -364,7 +364,7 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_initial_amountActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_initial_amount, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 360, 90, 30));
+        Panel_print_reciept.add(txt_initial_amount, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 370, 110, 20));
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         jLabel6.setText("Date :");
@@ -397,16 +397,16 @@ public class Print_reciept extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel11.setText("__");
-        Panel_print_reciept.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 250, 20, 30));
+        Panel_print_reciept.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 250, 20, 30));
 
         jLabel12.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         jLabel12.setText("Amount");
         Panel_print_reciept.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 320, 80, -1));
 
-        jSeparator3.setBackground(new java.awt.Color(255, 0, 0));
+        jSeparator3.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        Panel_print_reciept.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 780, 20));
+        Panel_print_reciept.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 790, 20));
 
         txt_bank_name.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_bank_name.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -415,10 +415,10 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_bank_nameActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_bank_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 530, 180, -1));
+        Panel_print_reciept.add(txt_bank_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 530, 220, -1));
 
-        jSeparator4.setBackground(new java.awt.Color(255, 0, 0));
-        jSeparator4.setForeground(new java.awt.Color(255, 102, 102));
+        jSeparator4.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         Panel_print_reciept.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 430, 220, 20));
 
@@ -428,11 +428,11 @@ public class Print_reciept extends javax.swing.JFrame {
 
         txt_total.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_total.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        Panel_print_reciept.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 440, 90, 30));
+        Panel_print_reciept.add(txt_total, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 440, 110, 20));
 
         lbl_total_in_words.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_total_in_words.setText("Total in words :");
-        Panel_print_reciept.add(lbl_total_in_words, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, -1, -1));
+        Panel_print_reciept.add(lbl_total_in_words, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, -1, 20));
 
         txt_total_in_words.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_total_in_words.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -441,7 +441,7 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_total_in_wordsActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_total_in_words, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 440, 340, 30));
+        Panel_print_reciept.add(txt_total_in_words, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 450, 340, 20));
 
         jLabel13.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         jLabel13.setText("Remark :");
@@ -462,14 +462,14 @@ public class Print_reciept extends javax.swing.JFrame {
         jLabel15.setText("Reciever Signature");
         Panel_print_reciept.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 590, 140, -1));
 
-        jSeparator5.setBackground(new java.awt.Color(255, 0, 0));
-        jSeparator5.setForeground(new java.awt.Color(255, 102, 102));
+        jSeparator5.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator5.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        Panel_print_reciept.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, 200, 40));
+        Panel_print_reciept.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, 220, 40));
 
         lbl_Cheque_no.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_Cheque_no.setText("Cheque  no :");
-        Panel_print_reciept.add(lbl_Cheque_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 570, 100, -1));
+        Panel_print_reciept.add(lbl_Cheque_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 570, 100, -1));
 
         txt_Cheque_no.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_Cheque_no.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -478,11 +478,11 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_Cheque_noActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_Cheque_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 570, 80, -1));
+        Panel_print_reciept.add(txt_Cheque_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 570, 150, -1));
 
         lbl_transaction_no.setFont(new java.awt.Font("Arial", 1, 15)); // NOI18N
         lbl_transaction_no.setText("transaction no :");
-        Panel_print_reciept.add(lbl_transaction_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 570, 120, 20));
+        Panel_print_reciept.add(lbl_transaction_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 600, 120, 20));
 
         txt_transaction_no.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txt_transaction_no.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -491,18 +491,18 @@ public class Print_reciept extends javax.swing.JFrame {
                 txt_transaction_noActionPerformed(evt);
             }
         });
-        Panel_print_reciept.add(txt_transaction_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 570, 80, 20));
+        Panel_print_reciept.add(txt_transaction_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 600, 150, 20));
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 1, 48)); // NOI18N
         jLabel2.setText("DNYANSHREE");
-        Panel_print_reciept.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, 400, 50));
+        Panel_print_reciept.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 390, 40));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel3.setText("            Raosaheb Wangde Master Charitable Trust");
         Panel_print_reciept.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 340, 20));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\diet1.jpg")); // NOI18N
-        Panel_print_reciept.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 120, 120));
+        Panel_print_reciept.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 130, 130));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
         jLabel1.setText("            Institute of Engineering and Technology");
