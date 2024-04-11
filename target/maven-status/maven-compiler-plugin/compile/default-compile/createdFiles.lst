@@ -65,7 +65,6 @@ com\mycompany\fees_managmentsystem\home_page$17.class
 com\mycompany\fees_managmentsystem\signup_page.class
 com\mycompany\fees_managmentsystem\home_page$3.class
 com\mycompany\fees_managmentsystem\View_All_Records_page$2.class
-com\mycompany\fees_managmentsystem\Add_fees_page$28.class
 com\mycompany\fees_managmentsystem\Genrate_report_page$10.class
 com\mycompany\fees_managmentsystem\EditCourse_Page$9.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$5.class
@@ -78,7 +77,6 @@ com\mycompany\fees_managmentsystem\Genrate_report_page$7.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$2.class
 com\mycompany\fees_managmentsystem\Print_reciept$14.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$14.class
-com\mycompany\fees_managmentsystem\Add_fees_page$29.class
 com\mycompany\fees_managmentsystem\Add_fees_page$12.class
 com\mycompany\fees_managmentsystem\signup_page$8.class
 com\mycompany\fees_managmentsystem\View_All_Records_page$5.class
@@ -174,7 +172,6 @@ com\mycompany\fees_managmentsystem\Update_Fees_details$25.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$8.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$28.class
 com\mycompany\fees_managmentsystem\EditCourse_Page$12.class
-com\mycompany\fees_managmentsystem\Update_Fees_details$30.class
 com\mycompany\fees_managmentsystem\Genrate_report_page.class
 com\mycompany\fees_managmentsystem\Update_Fees_details$27.class
 com\mycompany\fees_managmentsystem\signup_page$2.class

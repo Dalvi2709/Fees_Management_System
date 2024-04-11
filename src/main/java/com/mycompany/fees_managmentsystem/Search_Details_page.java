@@ -75,19 +75,25 @@ public class Search_Details_page extends javax.swing.JFrame {
         table_stu_data = new javax.swing.JTable();
         jLabel2 = new javax.swing.JLabel();
         txt_search_data = new javax.swing.JTextField();
-        jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jSeparator7 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(14, 58, 83));
-        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 0, 0), 2, true));
+        jPanel1.setBackground(new java.awt.Color(173, 239, 209));
+        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
 
-        btn_home.setBackground(new java.awt.Color(255, 204, 153));
+        btn_home.setBackground(new java.awt.Color(0, 51, 51));
         btn_home.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_home.setForeground(new java.awt.Color(255, 255, 255));
         btn_home.setText("Home");
         btn_home.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -100,8 +106,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_search_record.setBackground(new java.awt.Color(255, 204, 153));
+        btn_search_record.setBackground(new java.awt.Color(0, 51, 51));
         btn_search_record.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_search_record.setForeground(new java.awt.Color(255, 255, 255));
         btn_search_record.setText("Search Record");
         btn_search_record.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,8 +116,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_edit_course.setBackground(new java.awt.Color(255, 204, 153));
+        btn_edit_course.setBackground(new java.awt.Color(0, 51, 51));
         btn_edit_course.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_edit_course.setForeground(new java.awt.Color(255, 255, 255));
         btn_edit_course.setText("Edit Course");
         btn_edit_course.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -123,8 +131,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_course_list.setBackground(new java.awt.Color(255, 204, 153));
+        btn_course_list.setBackground(new java.awt.Color(0, 51, 51));
         btn_course_list.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_course_list.setForeground(new java.awt.Color(255, 255, 255));
         btn_course_list.setText("Course List");
         btn_course_list.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,8 +141,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_view_records.setBackground(new java.awt.Color(255, 204, 153));
+        btn_view_records.setBackground(new java.awt.Color(0, 51, 51));
         btn_view_records.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_view_records.setForeground(new java.awt.Color(255, 255, 255));
         btn_view_records.setText("View Records");
         btn_view_records.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,8 +151,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_back.setBackground(new java.awt.Color(255, 204, 153));
+        btn_back.setBackground(new java.awt.Color(0, 51, 51));
         btn_back.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_back.setForeground(new java.awt.Color(255, 255, 255));
         btn_back.setText("Back");
         btn_back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -155,8 +166,9 @@ public class Search_Details_page extends javax.swing.JFrame {
             }
         });
 
-        btn_logout.setBackground(new java.awt.Color(255, 204, 153));
+        btn_logout.setBackground(new java.awt.Color(0, 51, 51));
         btn_logout.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        btn_logout.setForeground(new java.awt.Color(255, 255, 255));
         btn_logout.setText("Logout");
         btn_logout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -208,8 +220,9 @@ public class Search_Details_page extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 680));
 
-        jPanel2.setBackground(new java.awt.Color(173, 239, 209));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
+        jPanel2.setForeground(new java.awt.Color(102, 51, 0));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -226,16 +239,15 @@ public class Search_Details_page extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(table_stu_data);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 830, 410));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, 860, 350));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 51, 51));
-        jLabel2.setText("Enter the String ");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
+        jLabel2.setText("Search Here -: ");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, -1, 30));
 
-        txt_search_data.setBackground(new java.awt.Color(255, 255, 204));
         txt_search_data.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txt_search_data.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        txt_search_data.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txt_search_data.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_search_dataActionPerformed(evt);
@@ -246,41 +258,46 @@ public class Search_Details_page extends javax.swing.JFrame {
                 txt_search_dataKeyReleased(evt);
             }
         });
-        jPanel2.add(txt_search_data, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 370, 40));
+        jPanel2.add(txt_search_data, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 253, 370, -1));
 
-        jPanel3.setBackground(new java.awt.Color(51, 0, 51));
+        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 51, 0));
+        jLabel1.setText("   Search Record");
+        jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, 330, -1));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 30)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\NetBeansProjects\\fees_managmentSystem\\src\\main\\java\\search2.png")); // NOI18N
-        jLabel1.setText("Search Record");
-        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\diet1.jpg")); // NOI18N
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, 130, 130));
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(288, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(310, 310, 310))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel3.setText("            Raosaheb Wangde Master Charitable Trust");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, 340, 20));
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 890, 80));
+        jLabel5.setFont(new java.awt.Font("Arial Black", 1, 48)); // NOI18N
+        jLabel5.setText("DNYANSHREE");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 390, 40));
 
-        jSeparator1.setForeground(new java.awt.Color(0, 51, 51));
-        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 920, 30));
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel6.setText("            Institute of Engineering and Technology");
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 370, 20));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 920, 680));
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel7.setText("   A/P. : Sonavadi-Gajavadi, Sajjangad Road, Tal.& Dist. Satara - 415013  ");
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, 450, -1));
 
-        setSize(new java.awt.Dimension(1207, 683));
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel8.setText("Maharashtra State , India. DTE Code : EN 6797");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 310, 20));
+
+        jSeparator7.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator7.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
+        jSeparator7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jPanel2.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 900, 10));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 900, 680));
+
+        setSize(new java.awt.Dimension(1187, 715));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -333,20 +350,20 @@ public class Search_Details_page extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_logoutActionPerformed
 
-    private void txt_search_dataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_search_dataActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txt_search_dataActionPerformed
+    private void btn_edit_courseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_edit_courseMouseClicked
+       EditCourse_Page e = new EditCourse_Page();
+        e.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btn_edit_courseMouseClicked
 
     private void txt_search_dataKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_search_dataKeyReleased
         String searchString = txt_search_data.getText();
         search(searchString);
     }//GEN-LAST:event_txt_search_dataKeyReleased
 
-    private void btn_edit_courseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_edit_courseMouseClicked
-       EditCourse_Page e = new EditCourse_Page();
-        e.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_btn_edit_courseMouseClicked
+    private void txt_search_dataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_search_dataActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_search_dataActionPerformed
 
     public static void main(String args[]) {
 
@@ -367,11 +384,16 @@ public class Search_Details_page extends javax.swing.JFrame {
     private javax.swing.JButton btn_view_records;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator7;
     private javax.swing.JTable table_stu_data;
     private javax.swing.JTextField txt_search_data;
     // End of variables declaration//GEN-END:variables
