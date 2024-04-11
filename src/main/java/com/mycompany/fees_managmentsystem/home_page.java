@@ -40,7 +40,7 @@ public class home_page extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(14, 58, 83));
+        jPanel1.setBackground(new java.awt.Color(0, 51, 51));
 
         jLabel1.setBackground(new java.awt.Color(14, 58, 83));
         jLabel1.setFont(new java.awt.Font("Segoe UI Semibold", 1, 48)); // NOI18N
@@ -406,7 +406,6 @@ public class home_page extends javax.swing.JFrame {
         btn_login.setBackground(new java.awt.Color(255, 204, 153));
         btn_login.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btn_login.setForeground(new java.awt.Color(14, 58, 83));
-        btn_login.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\logout.png")); // NOI18N
         btn_login.setText(" Logout");
         btn_login.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -422,7 +421,6 @@ public class home_page extends javax.swing.JFrame {
         btn_login1.setBackground(new java.awt.Color(255, 204, 153));
         btn_login1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btn_login1.setForeground(new java.awt.Color(14, 58, 83));
-        btn_login1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\my icons\\about.png")); // NOI18N
         btn_login1.setText("About");
         btn_login1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -450,9 +448,9 @@ public class home_page extends javax.swing.JFrame {
                             .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(240, 240, 240)
+                        .addGap(254, 254, 254)
                         .addComponent(btn_login)
-                        .addGap(148, 148, 148)
+                        .addGap(134, 134, 134)
                         .addComponent(btn_login1, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(41, Short.MAX_VALUE))
         );
@@ -469,16 +467,16 @@ public class home_page extends javax.swing.JFrame {
                     .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(33, 33, 33)
+                .addGap(21, 21, 21)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_login)
-                    .addComponent(btn_login1))
-                .addContainerGap(79, Short.MAX_VALUE))
+                    .addComponent(btn_login1)
+                    .addComponent(btn_login))
+                .addContainerGap(123, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 960, 570));
 
-        setSize(new java.awt.Dimension(978, 655));
+        setSize(new java.awt.Dimension(971, 577));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

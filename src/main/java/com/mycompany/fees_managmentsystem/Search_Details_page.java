@@ -221,12 +221,12 @@ public class Search_Details_page extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 680));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
+        jPanel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jPanel2.setForeground(new java.awt.Color(102, 51, 0));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        table_stu_data.setBackground(new java.awt.Color(255, 204, 204));
+        table_stu_data.setBackground(new java.awt.Color(204, 204, 204));
         table_stu_data.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         table_stu_data.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         table_stu_data.setModel(new javax.swing.table.DefaultTableModel(

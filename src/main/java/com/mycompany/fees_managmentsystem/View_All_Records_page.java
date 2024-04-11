@@ -215,9 +215,10 @@ public class View_All_Records_page extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 640));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        table_view_data.setBackground(new java.awt.Color(255, 204, 255));
+        table_view_data.setBackground(new java.awt.Color(204, 204, 204));
         table_view_data.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         table_view_data.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -229,7 +230,7 @@ public class View_All_Records_page extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(table_view_data);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 880, 330));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 880, 380));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 51, 0));
