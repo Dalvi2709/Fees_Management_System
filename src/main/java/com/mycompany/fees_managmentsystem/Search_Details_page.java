@@ -226,6 +226,7 @@ public class Search_Details_page extends javax.swing.JFrame {
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        table_stu_data.setAutoCreateRowSorter(true);
         table_stu_data.setBackground(new java.awt.Color(204, 204, 204));
         table_stu_data.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         table_stu_data.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N

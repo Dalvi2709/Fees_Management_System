@@ -471,12 +471,12 @@ public class home_page extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_login1)
                     .addComponent(btn_login))
-                .addContainerGap(123, Short.MAX_VALUE))
+                .addContainerGap(83, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 960, 570));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 960, 530));
 
-        setSize(new java.awt.Dimension(971, 577));
+        setSize(new java.awt.Dimension(971, 631));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
