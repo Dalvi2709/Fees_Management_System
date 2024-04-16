@@ -6,6 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
 import javax.swing.JOptionPane;
+import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class Add_fees_page extends javax.swing.JFrame {
 
@@ -134,6 +136,69 @@ public class Add_fees_page extends javax.swing.JFrame {
     }
      }
      
+
+
+public class NumberToWordsConverter {
+
+	public static final String[] units = { "", "One", "Two", "Three", "Four",
+			"Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve",
+			"Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+			"Eighteen", "Nineteen" };
+
+	public static final String[] tens = { 
+			"", 		// 0
+			"",		// 1
+			"Twenty", 	// 2
+			"Thirty", 	// 3
+			"Forty", 	// 4
+			"Fifty", 	// 5
+			"Sixty", 	// 6
+			"Seventy",	// 7
+			"Eighty", 	// 8
+			"Ninety" 	// 9
+	};
+
+	public static String convert(final int n) {
+		if (n < 0) 
+                {
+			return "Minus " + convert(-n);
+		}
+
+		if (n < 20) 
+                {
+			return units[n];
+		}
+
+		if (n < 100) {
+			return tens[n / 10] + ((n % 10 != 0) ? " " : "") + units[n % 10];
+		}
+
+		if (n < 1000) {
+			return units[n / 100] + " Hundred" + ((n % 100 != 0) ? " " : "") + convert(n % 100);
+		}
+
+		if (n < 100000) {
+			return convert(n / 1000) + " Thousand" + ((n % 10000 != 0) ? " " : "") + convert(n % 1000);
+		}
+
+		if (n < 10000000) {
+			return convert(n / 100000) + " Lakh" + ((n % 100000 != 0) ? " " : "") + convert(n % 100000);
+		}
+
+		return convert(n / 10000000) + " Crore" + ((n % 10000000 != 0) ? " " : "") + convert(n % 10000000);
+	}
+
+	public static void main(final String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the Amount : ");
+		int n=sc.nextInt();
+
+		
+		System.out.println( convert(n)+ " Only");
+
+	
+	}
+}
      
 //   Display lables Method
      
@@ -150,7 +215,7 @@ public class Add_fees_page extends javax.swing.JFrame {
          txt_reciver_name.setVisible(true);
          lbl_reciver_name.setVisible(true);
     }
-     
+    
 //     Validation of print button 
      
      boolean validation(){
@@ -739,9 +804,14 @@ public class Add_fees_page extends javax.swing.JFrame {
     private void txt_total_in_wordsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_total_in_wordsActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_total_in_wordsActionPerformed
-
+ 
     private void txt_amountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_amountActionPerformed
         // TODO add your handling code here:
+       String a=txt_total.getText();
+      float amt = Float.parseFloat(a);
+      float t = amt;
+        txt_total.setText (Float.toString(t));
+        txt_total_in_words.setText(NumberToWordsConverter.convert((int)t));
     }//GEN-LAST:event_txt_amountActionPerformed
 
     private void txt_dd_noActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_dd_noActionPerformed

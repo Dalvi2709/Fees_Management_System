@@ -310,6 +310,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 670));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         Edit_course_Table.setBackground(new java.awt.Color(204, 204, 204));
         Edit_course_Table.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -329,7 +330,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         jScrollPane1.setViewportView(Edit_course_Table);
 
         txt_course_id.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        txt_course_id.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        txt_course_id.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txt_course_id.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_course_idActionPerformed(evt);
@@ -337,7 +338,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         });
 
         txt_course_name.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        txt_course_name.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        txt_course_name.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txt_course_name.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_course_nameActionPerformed(evt);
@@ -345,7 +346,7 @@ public class EditCourse_Page extends javax.swing.JFrame {
         });
 
         txt_course_price.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        txt_course_price.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        txt_course_price.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txt_course_price.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_course_priceActionPerformed(evt);
@@ -499,8 +500,8 @@ public class EditCourse_Page extends javax.swing.JFrame {
                 .addGap(24, 24, 24)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lbl_course_id, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_course_id, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -517,10 +518,10 @@ public class EditCourse_Page extends javax.swing.JFrame {
                     .addComponent(btn_add)
                     .addComponent(btn_update)
                     .addComponent(btn_delete))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(79, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 900, 660));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 900, 660));
 
         setSize(new java.awt.Dimension(1188, 693));
         setLocationRelativeTo(null);

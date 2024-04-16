@@ -54,7 +54,7 @@ public class home_page extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(306, 306, 306)
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 401, Short.MAX_VALUE)
                 .addGap(303, 303, 303))
         );
         jPanel1Layout.setVerticalGroup(
@@ -65,7 +65,7 @@ public class home_page extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 90));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 90));
 
         jPanel2.setBackground(new java.awt.Color(173, 239, 209));
 
@@ -452,7 +452,7 @@ public class home_page extends javax.swing.JFrame {
                         .addComponent(btn_login)
                         .addGap(134, 134, 134)
                         .addComponent(btn_login1, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(91, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -474,9 +474,9 @@ public class home_page extends javax.swing.JFrame {
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 960, 530));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1010, 530));
 
-        setSize(new java.awt.Dimension(971, 631));
+        setSize(new java.awt.Dimension(1028, 631));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
